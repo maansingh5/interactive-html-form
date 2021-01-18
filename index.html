@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <section id="overlay">
+    <br>
+    <h1>My Second Form</h1> 
+      <hr>
+      <form action="submission.html" method="POST" class="form">
+				<h1>Add Products</h1>
+        <section class="name">
+          <label for="name">Add Product: </label>
+    			<input type="text" name="name" id="name">
+        </section>
+        <section class="submission">
+          <input type="submit" value="Add">
+        </section>
+        <hr>
+        <label for="listone">List 1</label>
+        <select id="listone" name="listone" multiple>
+        </select>
+        <hr>
+        <label for="listtwo">List 2</label>
+        <select id="listtwo" name="listtwo" multiple>
+        </select>
+        <hr>
+        <input type="reset" value="Reset">
+        <button type="button" id="one">Add One</button>
+        <button type="button" id="multi">Add Multi</button>
+        <button type="button" id="all">Add All</button>
+      </form>
+    </section>
+    <script src="./myscript.js"></script>
+  </body>
+</html>
